@@ -1,7 +1,7 @@
 package web
 
 type PostResponse struct {
-	Id   int
-	Name string
-	Post string
+	Id   int    `json:"id"`
+	Name string `json:"name"`
+	Post string `json:"post"`
 }
